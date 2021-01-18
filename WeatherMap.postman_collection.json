@@ -1,0 +1,431 @@
+{
+	"info": {
+		"_postman_id": "090f777c-1d44-46bd-8775-daa28933097c",
+		"name": "WeatherMap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Negative Tests",
+			"item": [
+				{
+					"name": "GetWeatherByCityNegative",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const response = pm.response.json();\r",
+									"console.log(response.message);\r",
+									"\r",
+									"pm.test(\"Message invalid API Key\", () => {\r",
+									"pm.expect(response.message).to.eql(\"Invalid API key. Please see http://openweathermap.org/faq#error401 for more info.\");\r",
+									"\r",
+									"\r",
+									"});\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "",
+								"variables": ""
+							},
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/weather?q={{city name}}&appid={API key}",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "{{city name}}"
+								},
+								{
+									"key": "appid",
+									"value": "{API key}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetByCoordinatesNegative",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const response = pm.response.json();\r",
+									"console.log(response.message);\r",
+									"\r",
+									"pm.test(\"Wrong Lattitude\", () => {\r",
+									"pm.expect(response.message).to.eql(\"wrong latitude\");\r",
+									"\r",
+									"\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/weather?lat={lat}&lon={{lon}}&appid={{API key}}",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "{lat}"
+								},
+								{
+									"key": "lon",
+									"value": "{{lon}}"
+								},
+								{
+									"key": "appid",
+									"value": "{{API key}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetWeatherInLondonNegative",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const response = pm.response.json();\r",
+									"console.log(response.message);\r",
+									"\r",
+									"pm.test(\"Nothing sent to geocode\", () => {\r",
+									"pm.expect(response.message).to.eql(\"Nothing to geocode\");\r",
+									"\r",
+									"\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/find?q=&appid={{API key}}",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"find"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": ""
+								},
+								{
+									"key": "appid",
+									"value": "{{API key}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PositiveTests",
+			"item": [
+				{
+					"name": "GetWeatherByCity",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const response = pm.response.json();\r",
+									"console.log(response.cod);\r",
+									"\r",
+									"pm.test(\"Country code is: ZA\", () => {\r",
+									"pm.expect(response.sys.country).to.eql(\"ZA\");\r",
+									"\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response code is 200\", () => {\r",
+									"\r",
+									"pm.expect(response.cod).to.eql(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"City Name is Cape Town\", () => {\r",
+									"\r",
+									"pm.expect(response.name).to.eql(\"Cape Town\");\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "",
+								"variables": ""
+							},
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/weather?q={{city name}}&appid={{API key}}",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "{{city name}}"
+								},
+								{
+									"key": "appid",
+									"value": "{{API key}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetByCoordinates",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const response = pm.response.json();\r",
+									"console.log(response.cod);\r",
+									"\r",
+									"pm.test(\"Base name is stations and the status is 200\", () => {\r",
+									"pm.expect(response.base).to.eql(\"stations\");\r",
+									"pm.expect(response.cod).to.eql(200);\r",
+									"\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/weather?lat={{lat}}&lon={{lon}}&appid={{API key}}",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"weather"
+							],
+							"query": [
+								{
+									"key": "lat",
+									"value": "{{lat}}"
+								},
+								{
+									"key": "lon",
+									"value": "{{lon}}"
+								},
+								{
+									"key": "appid",
+									"value": "{{API key}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetWeatherInLondon",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const response = pm.response.json();\r",
+									"\r",
+									"\r",
+									"pm.test(\"Contry code is US and city is London \", () => {\r",
+									"pm.expect(response.list[2].sys.country).to.eql(\"US\");\r",
+									"pm.expect(response.list[2].name).to.eql(\"London\");\r",
+									"\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "api.openweathermap.org/data/2.5/find?q=London&appid={{API key}}",
+							"host": [
+								"api",
+								"openweathermap",
+								"org"
+							],
+							"path": [
+								"data",
+								"2.5",
+								"find"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "London"
+								},
+								{
+									"key": "appid",
+									"value": "{{API key}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
