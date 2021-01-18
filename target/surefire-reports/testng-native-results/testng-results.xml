@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="175795" started-at="2021-01-15T21:20:17Z" finished-at="2021-01-15T21:23:13Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="175795" started-at="2021-01-15T21:20:17Z" finished-at="2021-01-15T21:23:13Z">
+      <class name="GlobalKinetic.saucedemo.HomePageTest">
+        <test-method status="PASS" signature="getUrl()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@fb434]" name="getUrl" is-config="true" duration-ms="5525" started-at="2021-01-15T23:20:17Z" finished-at="2021-01-15T23:20:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method status="PASS" signature="CancelButton()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@fb434]" name="CancelButton" duration-ms="145191" started-at="2021-01-15T23:20:22Z" finished-at="2021-01-15T23:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelButton -->
+        <test-method status="PASS" signature="CancelOverView()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@fb434]" name="CancelOverView" duration-ms="4589" started-at="2021-01-15T23:22:48Z" finished-at="2021-01-15T23:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelOverView -->
+        <test-method status="PASS" signature="Checkout()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@fb434]" name="Checkout" duration-ms="3699" started-at="2021-01-15T23:22:52Z" finished-at="2021-01-15T23:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method status="PASS" signature="ContinueWithDetails()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@fb434]" name="ContinueWithDetails" duration-ms="1360" started-at="2021-01-15T23:22:56Z" finished-at="2021-01-15T23:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContinueWithDetails -->
+        <test-method status="PASS" signature="ContinueWitoutDetails()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@fb434]" name="ContinueWitoutDetails" duration-ms="979" started-at="2021-01-15T23:22:57Z" finished-at="2021-01-15T23:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContinueWitoutDetails -->
+        <test-method status="PASS" signature="FinishOrder()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@fb434]" name="FinishOrder" duration-ms="13681" started-at="2021-01-15T23:22:58Z" finished-at="2021-01-15T23:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinishOrder -->
+        <test-method status="PASS" signature="LockedUser()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@fb434]" name="LockedUser" duration-ms="424" started-at="2021-01-15T23:23:12Z" finished-at="2021-01-15T23:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LockedUser -->
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@fb434]" name="closeTest" is-config="true" duration-ms="329" started-at="2021-01-15T23:23:12Z" finished-at="2021-01-15T23:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- GlobalKinetic.saucedemo.HomePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

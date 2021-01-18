@@ -1,0 +1,6 @@
+23:50:15.432 [main] INFO  GlobalKinetic.saucedemo.HomePageTest3 - RemoveItemsFromCartList Executed 
+23:50:27.027 [main] INFO  GlobalKinetic.saucedemo.HomePageTest3 - continueShopping Executed 
+23:50:32.628 [main] INFO  GlobalKinetic.saucedemo.HomePageTest3 - sortAtoZ Executed 
+23:50:38.315 [main] INFO  GlobalKinetic.saucedemo.HomePageTest3 - sortHighToLow Executed 
+23:50:43.986 [main] INFO  GlobalKinetic.saucedemo.HomePageTest3 - sortLowtoHigh Executed 
+23:50:49.652 [main] INFO  GlobalKinetic.saucedemo.HomePageTest3 - sortZtoA Executed 

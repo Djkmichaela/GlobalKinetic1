@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="46" passed="43" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-18T23:46:08 SAST" name="Suite" finished-at="2021-01-18T23:50:59 SAST" duration-ms="291162">
+    <groups>
+    </groups>
+    <test started-at="2021-01-18T23:46:08 SAST" name="Login" finished-at="2021-01-18T23:46:32 SAST" duration-ms="23881">
+      <class name="GlobalKinetic.saucedemo.LoginTest">
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:GlobalKinetic.saucedemo.LoginTest@72758afa]" started-at="2021-01-18T23:46:08 SAST" name="getUrl" finished-at="2021-01-18T23:46:29 SAST" duration-ms="21258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="LockedUser()[pri:0, instance:GlobalKinetic.saucedemo.LoginTest@72758afa]" started-at="2021-01-18T23:46:29 SAST" name="LockedUser" finished-at="2021-01-18T23:46:32 SAST" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LockedUser -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:GlobalKinetic.saucedemo.LoginTest@72758afa]" started-at="2021-01-18T23:46:32 SAST" name="closeTest" finished-at="2021-01-18T23:46:32 SAST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- GlobalKinetic.saucedemo.LoginTest -->
+    </test> <!-- Login -->
+    <test started-at="2021-01-18T23:46:33 SAST" name="Homepage" finished-at="2021-01-18T23:47:34 SAST" duration-ms="61116">
+      <class name="GlobalKinetic.saucedemo.HomePageTest">
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:46:33 SAST" name="getUrl" finished-at="2021-01-18T23:46:36 SAST" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="About()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:46:36 SAST" name="About" finished-at="2021-01-18T23:47:14 SAST" duration-ms="37169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About -->
+        <test-method signature="AllItems()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:14 SAST" name="AllItems" finished-at="2021-01-18T23:47:17 SAST" duration-ms="3351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllItems -->
+        <test-method signature="CancelButton()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:17 SAST" name="CancelButton" finished-at="2021-01-18T23:47:19 SAST" duration-ms="2292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelButton -->
+        <test-method signature="CancelOverView()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:19 SAST" name="CancelOverView" finished-at="2021-01-18T23:47:21 SAST" duration-ms="2030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelOverView -->
+        <test-method signature="Checkout()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:21 SAST" name="Checkout" finished-at="2021-01-18T23:47:23 SAST" duration-ms="1660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method signature="ContinueWithDetails()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:23 SAST" name="ContinueWithDetails" finished-at="2021-01-18T23:47:24 SAST" duration-ms="1413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContinueWithDetails -->
+        <test-method signature="ContinueWitoutDetails()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:24 SAST" name="ContinueWitoutDetails" finished-at="2021-01-18T23:47:25 SAST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContinueWitoutDetails -->
+        <test-method signature="FinishOrder()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:25 SAST" name="FinishOrder" finished-at="2021-01-18T23:47:28 SAST" duration-ms="2184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinishOrder -->
+        <test-method signature="RemoveItemsFromCartList()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:28 SAST" name="RemoveItemsFromCartList" finished-at="2021-01-18T23:47:29 SAST" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveItemsFromCartList -->
+        <test-method signature="continueShopping()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:29 SAST" name="continueShopping" finished-at="2021-01-18T23:47:30 SAST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShopping -->
+        <test-method signature="sortAtoZ()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:30 SAST" name="sortAtoZ" finished-at="2021-01-18T23:47:30 SAST" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortAtoZ -->
+        <test-method signature="sortHighToLow()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:30 SAST" name="sortHighToLow" finished-at="2021-01-18T23:47:31 SAST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortHighToLow -->
+        <test-method signature="sortLowtoHigh()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:31 SAST" name="sortLowtoHigh" finished-at="2021-01-18T23:47:32 SAST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortLowtoHigh -->
+        <test-method signature="sortZtoA()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:32 SAST" name="sortZtoA" finished-at="2021-01-18T23:47:32 SAST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortZtoA -->
+        <test-method signature="viewCartList()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:32 SAST" name="viewCartList" finished-at="2021-01-18T23:47:33 SAST" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCartList -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest@79145d5a]" started-at="2021-01-18T23:47:33 SAST" name="closeTest" finished-at="2021-01-18T23:47:34 SAST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- GlobalKinetic.saucedemo.HomePageTest -->
+    </test> <!-- Homepage -->
+    <test started-at="2021-01-18T23:47:34 SAST" name="ProblemUser" finished-at="2021-01-18T23:48:45 SAST" duration-ms="70787">
+      <class name="GlobalKinetic.saucedemo.HomePageTest2">
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:47:34 SAST" name="getUrl" finished-at="2021-01-18T23:47:44 SAST" duration-ms="9655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="About()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:47:44 SAST" name="About" finished-at="2021-01-18T23:48:13 SAST" duration-ms="29752" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div.reference-container > div > h1"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FC45964D016E', ip: '10.0.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e98f13cde8645b93f0fad0ea9f9ff4f7
+*** Element info: {Using=css selector, value=div.reference-container > div > h1}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.reference-container > div > h1"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FC45964D016E', ip: '10.0.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e98f13cde8645b93f0fad0ea9f9ff4f7
+*** Element info: {Using=css selector, value=div.reference-container > div > h1}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at PageObjects.SouceLabsPage.title(SouceLabsPage.java:21)
+at GlobalKinetic.saucedemo.HomePageTest2.About(HomePageTest2.java:341)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About -->
+        <test-method signature="AllItems()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:14 SAST" name="AllItems" finished-at="2021-01-18T23:48:17 SAST" duration-ms="2547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllItems -->
+        <test-method signature="CancelButton()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:17 SAST" name="CancelButton" finished-at="2021-01-18T23:48:18 SAST" duration-ms="1886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelButton -->
+        <test-method signature="CancelOverView()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:18 SAST" name="CancelOverView" finished-at="2021-01-18T23:48:21 SAST" duration-ms="2911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelOverView -->
+        <test-method signature="Checkout()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:21 SAST" name="Checkout" finished-at="2021-01-18T23:48:23 SAST" duration-ms="1698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method signature="ContinueWithDetails()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:23 SAST" name="ContinueWithDetails" finished-at="2021-01-18T23:48:24 SAST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContinueWithDetails -->
+        <test-method signature="ContinueWitoutDetails()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:24 SAST" name="ContinueWitoutDetails" finished-at="2021-01-18T23:48:26 SAST" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContinueWitoutDetails -->
+        <test-method signature="FinishOrder()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:26 SAST" name="FinishOrder" finished-at="2021-01-18T23:48:28 SAST" duration-ms="2229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinishOrder -->
+        <test-method signature="RemoveItemsFromCartList()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:28 SAST" name="RemoveItemsFromCartList" finished-at="2021-01-18T23:48:39 SAST" duration-ms="11032" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div:nth-child(6) > div.cart_item_label > div.item_pricebar > button"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FC45964D016E', ip: '10.0.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e98f13cde8645b93f0fad0ea9f9ff4f7
+*** Element info: {Using=css selector, value=div:nth-child(6) > div.cart_item_label > div.item_pricebar > button}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div:nth-child(6) > div.cart_item_label > div.item_pricebar > button"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FC45964D016E', ip: '10.0.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e98f13cde8645b93f0fad0ea9f9ff4f7
+*** Element info: {Using=css selector, value=div:nth-child(6) > div.cart_item_label > div.item_pricebar > button}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at PageObjects.CartList.removeFleeceJacket(CartList.java:59)
+at GlobalKinetic.saucedemo.HomePageTest2.RemoveItemsFromCartList(HomePageTest2.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveItemsFromCartList -->
+        <test-method signature="continueShopping()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:39 SAST" name="continueShopping" finished-at="2021-01-18T23:48:40 SAST" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShopping -->
+        <test-method signature="sortAtoZ()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:40 SAST" name="sortAtoZ" finished-at="2021-01-18T23:48:41 SAST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortAtoZ -->
+        <test-method signature="sortHighToLow()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:41 SAST" name="sortHighToLow" finished-at="2021-01-18T23:48:42 SAST" duration-ms="810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortHighToLow -->
+        <test-method signature="sortLowtoHigh()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:42 SAST" name="sortLowtoHigh" finished-at="2021-01-18T23:48:43 SAST" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortLowtoHigh -->
+        <test-method signature="sortZtoA()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:43 SAST" name="sortZtoA" finished-at="2021-01-18T23:48:43 SAST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortZtoA -->
+        <test-method signature="viewCartList()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:43 SAST" name="viewCartList" finished-at="2021-01-18T23:48:44 SAST" duration-ms="855" status="FAIL">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[4]> but was:<[2]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<[4]> but was:<[2]>
+at junit.framework.Assert.assertEquals(Assert.java:100)
+at junit.framework.Assert.assertEquals(Assert.java:107)
+at GlobalKinetic.saucedemo.HomePageTest2.viewCartList(HomePageTest2.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCartList -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest2@5af3a0f]" started-at="2021-01-18T23:48:45 SAST" name="closeTest" finished-at="2021-01-18T23:48:45 SAST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- GlobalKinetic.saucedemo.HomePageTest2 -->
+    </test> <!-- ProblemUser -->
+    <test started-at="2021-01-18T23:48:45 SAST" name="PerformanceGlitch" finished-at="2021-01-18T23:50:59 SAST" duration-ms="134080">
+      <class name="GlobalKinetic.saucedemo.HomePageTest3">
+        <test-method is-config="true" signature="getUrl()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:48:45 SAST" name="getUrl" finished-at="2021-01-18T23:48:54 SAST" duration-ms="8829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="About()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:48:54 SAST" name="About" finished-at="2021-01-18T23:49:11 SAST" duration-ms="17534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- About -->
+        <test-method signature="AllItems()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:49:11 SAST" name="AllItems" finished-at="2021-01-18T23:49:25 SAST" duration-ms="13464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllItems -->
+        <test-method signature="CancelButton()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:49:25 SAST" name="CancelButton" finished-at="2021-01-18T23:49:31 SAST" duration-ms="6390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelButton -->
+        <test-method signature="CancelOverView()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:49:31 SAST" name="CancelOverView" finished-at="2021-01-18T23:49:43 SAST" duration-ms="11701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelOverView -->
+        <test-method signature="Checkout()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:49:43 SAST" name="Checkout" finished-at="2021-01-18T23:49:49 SAST" duration-ms="6393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout -->
+        <test-method signature="ContinueWithDetails()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:49:49 SAST" name="ContinueWithDetails" finished-at="2021-01-18T23:49:56 SAST" duration-ms="6397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContinueWithDetails -->
+        <test-method signature="ContinueWitoutDetails()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:49:56 SAST" name="ContinueWitoutDetails" finished-at="2021-01-18T23:50:02 SAST" duration-ms="6127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContinueWitoutDetails -->
+        <test-method signature="FinishOrder()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:50:02 SAST" name="FinishOrder" finished-at="2021-01-18T23:50:09 SAST" duration-ms="6981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinishOrder -->
+        <test-method signature="RemoveItemsFromCartList()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:50:09 SAST" name="RemoveItemsFromCartList" finished-at="2021-01-18T23:50:15 SAST" duration-ms="6604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveItemsFromCartList -->
+        <test-method signature="continueShopping()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:50:15 SAST" name="continueShopping" finished-at="2021-01-18T23:50:27 SAST" duration-ms="11207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continueShopping -->
+        <test-method signature="sortAtoZ()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:50:27 SAST" name="sortAtoZ" finished-at="2021-01-18T23:50:32 SAST" duration-ms="5600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortAtoZ -->
+        <test-method signature="sortHighToLow()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:50:32 SAST" name="sortHighToLow" finished-at="2021-01-18T23:50:38 SAST" duration-ms="5686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortHighToLow -->
+        <test-method signature="sortLowtoHigh()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:50:38 SAST" name="sortLowtoHigh" finished-at="2021-01-18T23:50:43 SAST" duration-ms="5671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortLowtoHigh -->
+        <test-method signature="sortZtoA()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:50:43 SAST" name="sortZtoA" finished-at="2021-01-18T23:50:49 SAST" duration-ms="5665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortZtoA -->
+        <test-method signature="viewCartList()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:50:49 SAST" name="viewCartList" finished-at="2021-01-18T23:50:55 SAST" duration-ms="5979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCartList -->
+        <test-method is-config="true" signature="closeTest()[pri:0, instance:GlobalKinetic.saucedemo.HomePageTest3@4ee37ca3]" started-at="2021-01-18T23:50:55 SAST" name="closeTest" finished-at="2021-01-18T23:50:59 SAST" duration-ms="3832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTest -->
+      </class> <!-- GlobalKinetic.saucedemo.HomePageTest3 -->
+    </test> <!-- PerformanceGlitch -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,6 @@
+13:42:05.359 [main] INFO  GlobalKinetic.saucedemo.HomePageTest - ContinueWithDetails Executed 
+13:42:06.404 [main] INFO  GlobalKinetic.saucedemo.HomePageTest - ContinueWitoutDetails Executed 
+13:42:08.614 [main] INFO  GlobalKinetic.saucedemo.HomePageTest - Finish Order Executed 
+13:42:09.726 [main] INFO  GlobalKinetic.saucedemo.HomePageTest - RemoveItemsFromCartList Executed 
+13:42:10.706 [main] INFO  GlobalKinetic.saucedemo.HomePageTest - continueShopping Executed 
+13:42:11.678 [main] INFO  GlobalKinetic.saucedemo.HomePageTest - sortAtoZ Executed 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Testng(failed)" parallel="none">
+    <classes>
+      <class name="GlobalKinetic.saucedemo.HomePageTest">
+        <methods>
+          <include name="Checkout"/>
+          <include name="CancelOverView"/>
+          <include name="getUrl"/>
+          <include name="closeTest"/>
+          <include name="CancelButton"/>
+          <include name="ContinueWitoutDetails"/>
+        </methods>
+      </class> <!-- GlobalKinetic.saucedemo.HomePageTest -->
+      <class name="GlobalKinetic.saucedemo.LoginTest">
+        <methods>
+          <include name="getUrl"/>
+          <include name="closeTest"/>
+        </methods>
+      </class> <!-- GlobalKinetic.saucedemo.LoginTest -->
+    </classes>
+  </test> <!-- Testng(failed) -->
+</suite> <!-- Failed suite [Suite] -->
